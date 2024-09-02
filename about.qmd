@@ -1,5 +1,20 @@
 ---
-title: "About"
+title: "Tim Steeno"
+about:
+    template: trestles
+    links:
+        - icon: github
+          text: GitHub
+          href: https://github.com/timsteeno
+        - icon: twitter
+          text: Twitter
+          href: https://twitter.com/timsteeno
 ---
 
-About this site
+Hey! I'm Tim, I'm a product scientist in Austin, TX. I have nearly two decades of experience building amazing data science teams with a focus on product development, experimentation, and machine learning for business development for companies like Electronic Arts and Indeed. I've been lucky to work across the business scope to build solutions like demand forecasting, recommendation systems, and issue classification.
+
+I am currently intersted in how to evaluate generative AI applications from a product perspective, and understanding how customers receive and interact with LLM based products.
+
+I also plan to share cool things I find online here. This site is a playground for my learning, and I hope to publish some of my writing here.
+
+If you'd like to get in touch, you can find me on [Twitter](https://twitter.com/timsteeno) or email me at _timothysteeno at yahoo dot com_. I am currently looking for interesting projects and opportunities - please reach out if you'd like to talk!
