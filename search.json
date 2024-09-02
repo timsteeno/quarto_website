@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "quarto_website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Tim Steeno",
+    "section": "",
+    "text": "Hey! I’m Tim, I’m a product scientist in Austin, TX. I have nearly two decades of experience building amazing data science teams with a focus on product development, experimentation, and machine learning for business development for companies like Electronic Arts and Indeed. I’ve been lucky to work across the business scope to build solutions like demand forecasting, recommendation systems, and issue classification.\nI am currently intersted in how to evaluate generative AI applications from a product perspective, and understanding how customers receive and interact with LLM based products.\nI also plan to share cool things I find online here. This site is a playground for my learning, and I hope to publish some of my writing here.\nIf you’d like to get in touch, you can find me on Twitter or email me at timothysteeno at yahoo dot com. I am currently looking for interesting projects and opportunities - please reach out if you’d like to talk!"
   }
 ]

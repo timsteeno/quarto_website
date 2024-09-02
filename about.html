@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – quarto_website</title>
+<title>Tim Steeno – quarto_website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Tim Steeno</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -107,36 +106,38 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Tim Steeno</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
+    <div class="about-links">
+  <a href="https://github.com/timsteeno" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="https://twitter.com/timsteeno" class="about-link" rel="" target="">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">Twitter</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>Hey! I’m Tim, I’m a product scientist in Austin, TX. I have nearly two decades of experience building amazing data science teams with a focus on product development, experimentation, and machine learning for business development for companies like Electronic Arts and Indeed. I’ve been lucky to work across the business scope to build solutions like demand forecasting, recommendation systems, and issue classification.</p>
+<p>I am currently intersted in how to evaluate generative AI applications from a product perspective, and understanding how customers receive and interact with LLM based products.</p>
+<p>I also plan to share cool things I find online here. This site is a playground for my learning, and I hope to publish some of my writing here.</p>
+<p>If you’d like to get in touch, you can find me on <a href="https://twitter.com/timsteeno">Twitter</a> or email me at <em>timothysteeno at yahoo dot com</em>. I am currently looking for interesting projects and opportunities - please reach out if you’d like to talk!</p>
 
 
-<p>About this site</p>
-
-
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -157,13 +158,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -229,7 +223,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/timsteeno\.github\.io\/quarto_website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
